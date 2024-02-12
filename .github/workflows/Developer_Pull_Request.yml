@@ -1,0 +1,11 @@
+name: Release_Tags
+on:
+    pull_request:
+      branches:
+          - 'XPNS-*'
+jobs:
+  check-bats-version:
+    runs-on: self-hosted
+    steps:
+      - run: env
+
