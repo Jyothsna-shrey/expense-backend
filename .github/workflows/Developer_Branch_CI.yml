@@ -1,6 +1,5 @@
 name: Developer_Branch_CI
 on:
-  on:
     push:
       branches:
         - 'XPNS-*'
