@@ -1,6 +1,0 @@
-name: caller workflow
-on: [push, pull_request]
-jobs:
-  build:
-    uses: jyothsna-shrey/github-actions/.github/workflows/sample.yml@main
-#
